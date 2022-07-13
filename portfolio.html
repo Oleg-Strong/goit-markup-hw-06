@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Портфолио</title>
+  </head>
+
+  <body>
+    <!--секция "Хэдер"-->
+    <header class="page-header">
+      <div class="container contacts-nav-header">
+        <nav class="site-nav">
+          <a class="logo link" href="./index.html" lang="en"
+            >Web<span class="text-black">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link active link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-header list">
+          <li class="contact-item">
+            <a class="contact-mail link" href="mailto:info@devstudio.com">
+              <svg class="mail-icon" width="16px" height="12px">
+                <use href="./imagis/icons/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a class="contact-phone link" href="tel:+380961111111"
+              ><svg class="mail-icon" width="10px" height="16px">
+                <use
+                  href="./imagis/icons/symbol-defs.svg#icon-smartphone"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--секция "Навигационных кнопок"-->
+    <section class="section">
+      <h1 class="projects-title visually-hidden">Проекты компании</h1>
+      <div class="container">
+        <ul class="buttons-list list">
+          <li class="button-item">
+            <button class="button" type="button">Все</button>
+          </li>
+          <li class="button-item">
+            <button class="button" type="button">Веб-сайты</button>
+          </li>
+          <li class="button-item">
+            <button class="button" type="button">Приложения</button>
+          </li>
+          <li class="button-item">
+            <button class="button" type="button">Дизайн</button>
+          </li>
+          <li class="button-item">
+            <button class="button" type="button">Маркетинг</button>
+          </li>
+        </ul>
+
+        <!--список "Проектами компании"-->
+
+        <ul class="galeri-projects list">
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/leptop.img.jpg"
+                  alt="ноутбук"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">Технокряк</h2>
+                <p class="about-project">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#">
+              <div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/basketballs-players.img.jpg"
+                  alt="играки в баскетболл"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h2>
+                <p class="about-project">Дизаин</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/fish-logo.img.jpg"
+                  alt="рыба на фонге логотипа"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">
+                  Ресторан <span lang="en">Seafood</span>
+                </h2>
+                <p class="about-project">Приложение</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/headphones.img.jpg"
+                  alt="наушники"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">
+                  Проект <span lang="en">Prime</span>
+                </h2>
+                <p class="about-project">Маркетингr</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/boxes.img.jpg"
+                  alt="две коробки"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">
+                  Проект <span lang="en">Boxes</span>
+                </h2>
+                <p class="about-project">Приложение</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/monitor.img.jpg"
+                  alt="манитор"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name" lang="en">
+                  Inspiration has no Borders
+                </h2>
+                <p class="about-project">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/book.img.jpg"
+                  alt="открытая книга"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">
+                  Издание <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="about-project">Дизайн</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/tag.img.jpg"
+                  alt="бирка с логотипом"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name">Проект <span lang="en">LAB</span></h2>
+                <p class="about-project">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="project-item">
+            <a class="project-exile link" href="#"
+              ><div class="project-photo-text-box">
+                <img
+                  class="project-photo"
+                  src="./imagis/ouer-work-portfolio/laptop-hands.img.jpg"
+                  alt="наберает текст"
+                  width="370"
+                  height="295"
+                />
+                <div class="project-text-box">
+                  <p class="project-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              </div>
+
+              <div class="position-project-description">
+                <h2 class="project-name" lang="en">Growing Business</h2>
+                <p class="about-project">Приложение</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--секция "Футер"-->
+    <footer Class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="adress-logo-footer-box">
+            <a class="logo link" href="./index.html" lang="en"
+              >Web<span class="text-white">Studio</span></a
+            >
+            <address class="address" id="contacts">
+              <ul class="address-footer list">
+                <li class="address-item">
+                  <a
+                    class="address-map link"
+                    href="https://goo.gl/maps/M4VhNLJZb9ix9Voo7"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="address-mail link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="address-phone link" href="tel:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <!--Иконки соц сетей в "футере"-->
+          <div class="footer-socials-box">
+            <p class="footer-socials-text">присоединяйтесь</p>
+            <ul class="footer-socials-list list">
+              <li class="footer-socials-item">
+                <a
+                  class="footer-socials-link link"
+                  href="https://www.instagram.com/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-socials-icon" width="20px" height="20px">
+                    <use
+                      href="./imagis/icons/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a
+                  class="footer-socials-link link"
+                  href="https://twitter.com/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-socials-icon" width="20px" height="20px">
+                    <use
+                      href="./imagis/icons/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a
+                  class="footer-socials-link link"
+                  href="https://www.facebook.com/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-socials-icon" width="20px" height="20px">
+                    <use
+                      href="./imagis/icons/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a
+                  class="footer-socials-link link"
+                  href="https://ua.linkedin.com/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="footer-socials-icon" width="20px" height="20px">
+                    <use
+                      href="./imagis/icons/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--Форма в "футере"-->
+          <div class="footer-text-form-box">
+            <p class="footer-form-text">Подпишитесь на рассылку</p>
+            <form class="footer-form">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="footer-form-btn" type="submit">
+                Подписаться
+                <span class="footer-form-btn-icon">
+                  <svg width="24px" height="24px">
+                    <use
+                      href="./imagis/icons/symbol-defs.svg#icon-icon-send"
+                    ></use>
+                  </svg>
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
